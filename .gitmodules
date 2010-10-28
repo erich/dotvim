@@ -1,0 +1,3 @@
+[submodule "colors/vividchalk"]
+	path = colors/vividchalk
+	url = http://github.com/tpope/vim-vividchalk.git
