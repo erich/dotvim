@@ -1,6 +1,5 @@
 " Needed on some linux distros.
 " see http://www.adamlowe.me/2009/12/vim-destroys-all-other-rails-editors.html
-filetype off 
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 set autoindent
@@ -16,3 +15,8 @@ set nu "show line number
 set showmatch "show maching braces
 set guitablabel=%N/\ %t\ %M
 syntax on
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_enable_signs=1
+let g:syntastic_auto_loc_list=1

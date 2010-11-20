@@ -1,7 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/home/erich/.gem/ruby/1.8/gems/capistrano-ext-1.2.1/lib/capistrano/ext'
 let g:netrw_dirhist_2='/home/erich/w/netina/config'
 let g:netrw_dirhist_3='/home/erich/w/prozdravi_impuls/config'
 let g:netrw_dirhist_4='/home/erich/w/prozdravi_priloha/app/views/layouts'
 let g:netrw_dirhist_5='/home/erich/w/netina/config'
+let g:netrw_dirhist_6='/home/erich/w/netina/config/locales/resources'
+let g:netrw_dirhist_7='/home/erich/test/noak/test'
