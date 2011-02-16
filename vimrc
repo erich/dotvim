@@ -20,3 +20,7 @@ set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 let g:syntastic_enable_signs=1
 let g:syntastic_auto_loc_list=1
+set softtabstop=2 
+set shiftwidth=2 
+set tabstop=2 
+set expandtab
